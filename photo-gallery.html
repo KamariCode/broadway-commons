@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Photo Gallery | Broadway Commons</title>
+
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-container">
+
+      <a
+        class="logo"
+        href="index.html"
+        aria-label="Return to the Broadway Commons homepage"
+      >
+        <img
+          src="images/broadway-commons-logo.jpg"
+          alt="Broadway Commons"
+        >
+      </a>
+
+      <button
+        class="mobile-menu-button"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-navigation"
+      >
+        Menu
+      </button>
+
+      <nav id="main-navigation" class="main-navigation">
+        <a href="index.html">Home</a>
+
+        <a href="photo-gallery.html" class="active">
+          Photo gallery
+        </a>
+
+        <a href="faq.html">FAQ</a>
+
+        <div class="nav-dropdown">
+          <button
+            class="dropdown-button"
+            type="button"
+            aria-expanded="false"
+          >
+            Other Nonprofits
+          </button>
+
+          <div class="dropdown-menu">
+            <a
+              href="https://reachoutpregnancy.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Reach Out
+            </a>
+
+            <a
+              href="https://www.lscommunity.org/cr"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Celebrate Recovery
+            </a>
+
+            <a
+              href="https://www.lscommunity.org/localimpact"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Food Pantry
+            </a>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="gallery-page">
+
+    <section class="featured-gallery">
+      <h1>Photo Gallery</h1>
+
+      <div class="featured-carousel">
+
+        <button
+          class="featured-arrow featured-previous"
+          type="button"
+          aria-label="Show previous featured photo"
+        >
+          &#10094;
+        </button>
+
+        <div class="featured-stage">
+
+          <div class="featured-slide">
+            <span>Featured Photo 1</span>
+          </div>
+
+          <div class="featured-slide">
+            <span>Featured Photo 2</span>
+          </div>
+
+          <div class="featured-slide">
+            <span>Featured Photo 3</span>
+          </div>
+
+          <div class="featured-slide">
+            <span>Featured Photo 4</span>
+          </div>
+
+          <div class="featured-slide">
+            <span>Featured Photo 5</span>
+          </div>
+
+        </div>
+
+        <button
+          class="featured-arrow featured-next"
+          type="button"
+          aria-label="Show next featured photo"
+        >
+          &#10095;
+        </button>
+
+      </div>
+
+      <div class="featured-dots" aria-label="Choose a featured photo"></div>
+    </section>
+
+    <div class="gallery-divider"></div>
+
+    <section class="event-galleries">
+
+      <article class="event-gallery">
+        <h2>Event name/category</h2>
+
+        <div class="event-carousel">
+          <button
+            class="event-arrow event-previous"
+            type="button"
+            aria-label="Scroll previous photos"
+          >
+            &#10094;
+          </button>
+
+          <div
+            class="event-track"
+            data-placeholder-count="16"
+            tabindex="0"
+            aria-label="Event photo gallery"
+          ></div>
+
+          <button
+            class="event-arrow event-next"
+            type="button"
+            aria-label="Scroll forward through photos"
+          >
+            &#10095;
+          </button>
+        </div>
+      </article>
+
+      <article class="event-gallery">
+        <h2>Event name/category</h2>
+
+        <div class="event-carousel">
+          <button
+            class="event-arrow event-previous"
+            type="button"
+            aria-label="Scroll previous photos"
+          >
+            &#10094;
+          </button>
+
+          <div
+            class="event-track"
+            data-placeholder-count="16"
+            tabindex="0"
+            aria-label="Event photo gallery"
+          ></div>
+
+          <button
+            class="event-arrow event-next"
+            type="button"
+            aria-label="Scroll forward through photos"
+          >
+            &#10095;
+          </button>
+        </div>
+      </article>
+
+      <article class="event-gallery">
+        <h2>Event name/category</h2>
+
+        <div class="event-carousel">
+          <button
+            class="event-arrow event-previous"
+            type="button"
+            aria-label="Scroll previous photos"
+          >
+            &#10094;
+          </button>
+
+          <div
+            class="event-track"
+            data-placeholder-count="16"
+            tabindex="0"
+            aria-label="Event photo gallery"
+          ></div>
+
+          <button
+            class="event-arrow event-next"
+            type="button"
+            aria-label="Scroll forward through photos"
+          >
+            &#10095;
+          </button>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-container">
+
+      <div class="footer-left">
+        <a class="facebook-icon" href="#" aria-label="Facebook">
+          f
+        </a>
+
+        <p>copyright</p>
+      </div>
+
+      <div class="footer-contact">
+        <h2>Contact Us Today</h2>
+
+        <address>
+          <span>address</span>
+          <span>number</span>
+          <span>email</span>
+        </address>
+      </div>
+
+    </div>
+  </footer>
+
+</body>
+</html>
