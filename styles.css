@@ -2,7 +2,7 @@
   --header-color: #242729;
   --dark-section: #282827;
   --hero-color: #315f6a;
-  --page-background: #f8f8f6;
+  --page-background: #f3eee4;
   --heading-color: #595554;
   --button-color: #466f7c;
   --photo-color: #5669ae;
@@ -1143,4 +1143,23 @@ button:focus-visible {
   .faq-image-placeholder {
     width: 100%;
   }
+}
+
+.combined-statement {
+  grid-template-columns: 1fr;
+  max-width: 760px;
+}
+
+.combined-statement article {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.combined-statement p {
+  line-height: 1.5;
+}
+
+.reservations p {
+  max-width: 760px;
 }
