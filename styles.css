@@ -1170,8 +1170,7 @@ button:focus-visible {
   margin-inline: auto;
 }
 
-.statements.combined-statement {
-  display: block;
+.about .combined-statement {
   width: 100%;
   max-width: 42rem;
   margin-inline: auto;
@@ -1180,12 +1179,7 @@ button:focus-visible {
   text-align: center;
 }
 
-.statements.combined-statement > article {
-  width: auto;
-  margin-inline: auto;
-}
-
-.statements.combined-statement p {
+.about .combined-statement p {
   text-align: center;
   margin-inline: auto;
 }
